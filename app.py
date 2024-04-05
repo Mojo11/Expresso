@@ -7,7 +7,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load your machine learning model here
-model = load_model('EfficientNet_Model.keras')
+model = load_model('EfficientNet_ModelWeights.keras')
 
 # Prediction function
 def preprocess_and_predict(model, img_path, target_size=(224, 224)):
